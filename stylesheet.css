@@ -50,6 +50,35 @@ background-color: #fbf7f7;
 	margin: 0px 15px;
 	background-color: #fbf7f7;
 }
+#titulo_pag{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "BEBAS", Calibri ;
+	font-weight: bold;
+	font-size: 54px;
+}
+
+#img_nosotras{
+	width: 600px;
+	height: 500px;
+	/*position: relative;*/
+	margin:70px 50px 100px 280px;
+	float: left;
+}
+
+#texto_nosotras{
+	float: right;
+	width: 600px;
+	height: 500px;
+	margin:70px 280px 100px 0px;
+}
+
+#coleccion_anual{
+width: 600px;
+height: 600px;
+border: 1px solid green;
+}
 
 li:hover{
 	color: red;
