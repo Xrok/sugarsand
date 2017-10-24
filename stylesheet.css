@@ -1,11 +1,22 @@
 *{
 	box-sizing: border-box;
 	/*border: 1px solid green;*/
+	
+}
+html{
+	text-align: center;
 }
 
 body{
 	margin: 0px;
-background-color: #ffffff;
+	width: 1024px;
+	background-color: #ffffff;
+	position: relative;
+	text-align: center;
+	margin-left:auto;
+    margin-right:auto;
+
+
 }
 img {
     max-width: 100%;
@@ -16,68 +27,82 @@ img {
 
 	width: 412.06px;
 	height: 125px;
-	
 	position: relative;
-	margin:100px 0px 100px -206.03px;
+	margin:50px 0px 50px -206.03px;
 	left:50%;
 	clear: both;
 }
 .menu{
-	margin: 0px 0px 70px 0px;
-	position: relative;
+	margin: 0px 0px 0px 0px;
+	position: relative;		 ;
 	height: 70px;
 	width: 100%;
-
-	background-color: #ffffff;
+	background-color: #fbf7f7;
+	padding: 0% 0% 0% 0%;
+	overflow: auto;
 
 }
 
 #main_menu{
-background-color: #fbf7f7;
+
 	position: relative;
 	text-align: center;
-	height: 70px;
-	width: 100%;	
+	width: 100%;
+	overflow: auto;
+	padding: 0px;
+	margin: -9.5px 0% 0% 0%;
+	top: 50%;
 }
 #main_opc{
 	display: inline-block;
-	font-size: 20px;
-	height: 70px;
-	letter-spacing: 5px;
+	font-size: 1em;
+	letter-spacing: 6px;
 	text-transform: uppercase;
 	font-family: Tahoma;
-	padding: 30px 20px;
-	margin: 0px 15px;
 	background-color: #fbf7f7;
+	margin: 0px 20px;
+}
+.contenido{
+	position: relative;
+	overflow:auto;
 }
 #titulo_pag{
+	position: relative;
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "BEBAS", Calibri ;
 	font-weight: bold;
 	font-size: 54px;
+	margin: 70px 0px 70px 0px;
 }
 
 #img_nosotras{
-	width: 600px;
+	width: 45%;
 	height: 500px;
 	/*position: relative;*/
-	margin:70px 50px 100px 280px;
+	margin: 0px 50px 100px 0px;
 	float: left;
 }
 
 #texto_nosotras{
 	float: right;
-	width: 600px;
-	height: 500px;
-	margin:70px 280px 100px 0px;
+	width: 40%;
+	height: 700px;
+	margin: 0px 0px 100px 0px;
 }
 
 #coleccion_anual{
-width: 600px;
-height: 600px;
-border: 1px solid green;
+width: 40%;
+height: auto;
+margin: 5%;
+float:left;
+}
+.anio_coleccion{
+	font-size: 5em;
+	font-weight: bolder;
+	font-family: Bebas;
+	background-color: #fbf7f7;
 }
 
 li:hover{
@@ -90,4 +115,7 @@ a:link
 }   
 a:visited{
 	color: black;
+}
+p{
+	margin: 0px;
 }
