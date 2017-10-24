@@ -15,12 +15,14 @@ body{
 	text-align: center;
 	margin-left:auto;
     margin-right:auto;
+    overflow:hidden;
 
 
 }
 img {
     max-width: 100%;
     max-height: 100%;
+    margin: 0px
 }
 
 .encabezado {
@@ -93,10 +95,11 @@ img {
 }
 
 #coleccion_anual{
-width: 40%;
-height: auto;
-margin: 5%;
-float:left;
+	width: 40%;
+	height: auto;
+	margin: 5%;
+	float:left;
+	background-color: #fbf7f7;
 }
 .anio_coleccion{
 	font-size: 5em;
