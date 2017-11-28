@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
+	<script type="text/javascript" src="../sugarsand.js"></script>
+	<script type="text/javascript" src="../jquery-3.2.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
 		<title>SugarSand</title>
 	</head>
@@ -9,16 +12,24 @@
 			<img src="../imagenes/banner.png">
 		</div>
 		
-		<div class="menu"> 
-			<ul id="main_menu">
-				<li id="main_opc" onclick="location.href='../index.html';"  style="cursor:pointer;">inicio</li>
-				<li id="main_opc" onclick="location.href='../sobre_nosotras.html';"  style="cursor:pointer;">sobre nosotras</li>
-				<li id="main_opc" onclick="location.href='../colecciones.html';"  style="cursor:pointer;">colecciones</li>
-				<li id="main_opc" onclick="location.href='../sale.html';"  style="cursor:pointer;">sale</li>
-				<li id="main_opc" onclick="location.href='../faq.html';"  style="cursor:pointer;">faq</li>
-				<li id="main_opc" onclick="location.href='../contacto.html';"  style="cursor:pointer;">contacto</li>
+		<nav class="menu"> 
+			<ul class="main_menu">
+				<li class="main_opc"   style="cursor:pointer;"> <a href="../index.html"> inicio</a></li>
+				<li class="main_opc"   style="cursor:pointer;"><a href="../sobre_nosotras.html"> sore nosotras</a></li>
+				<li class="main_opc"   style="cursor:pointer;"> <a href="../colecciones.html"> colecciones</a>
+					<ul class="sub_menu">
+						<li onclick="location.href='2014.html';" >2014</li>
+						<li>2015</li>
+						<li>2016</li>
+						<li>2017</li>
 			</ul>
-		</div>
+				</li>
+				<li class="main_opc"   style="cursor:pointer;"><a href="../sale.html"> sale</a></li>
+				<li class="main_opc"   style="cursor:pointer;"><a href="../faq.html"> faq</a></li>
+				<li class="main_opc"   style="cursor:pointer;"><a href="../contacto.html"> contacto</a></li>
+			</ul>
+			
+		</nav>
 		<div id="titulo_pag">Colecciones</div>
 		<div class="contenido" >
 		</div>
