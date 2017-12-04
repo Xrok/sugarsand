@@ -22,7 +22,6 @@
 						<li onclick="location.href='2015.html';" >2015</li>
 						<li onclick="location.href='2016.html';" >2016</li>
 						<li onclick="location.href='2017.html';" >2017</li>
-						<li onclick="location.href='2018.html';" >2018</li>
 			</ul>
 				</li>
 				<li class="main_opc"   style="cursor:pointer;"><a href="../sale.html"> sale</a></li>
@@ -31,36 +30,46 @@
 			</ul>
 			
 		</nav>
-		<div id="titulo_pag">Colecciones - 2014</div>
+		<div id="titulo_pag">Colecciones - 2017</div>
 		<div class="contenido" > 
 			<div class="show">
 				
 			</div>
-			<div class="mini left"  data-number="1" data-year="2014">
-				<img src="../imagenes/2014_1.jpg">
+			<div class="mini left"  data-number="1" data-year="2017">
+				<img src="../imagenes/2017_1.jpg">
 			</div>
-			<div class="mini center" data-number="2" data-year="2014">
-				<img src="../imagenes/2014_2.jpg">
+			<div class="mini center" data-number="2" data-year="2017">
+				<img src="../imagenes/2017_2.jpg">
 			</div>
-			<div class="mini center" data-number="3" data-year="2014">
-				<img src="../imagenes/2014_3.jpg">
+			<div class="mini center" data-number="3" data-year="2017">
+				<img src="../imagenes/2017_3.jpg">
 			</div>
-			<div class="mini right" data-number="4" data-year="2014">
-				<img src="../imagenes/2014_4.jpg">
+			<div class="mini right" data-number="4" data-year="2017">
+				<img src="../imagenes/2017_4.jpg">
 			</div>
-			<div class="mini left"  data-number="5" data-year="2014">
-				<img src="../imagenes/2014_5.jpg">
+				<div class="mini left"  data-number="5" data-year="2017">
+				<img src="../imagenes/2017_5.jpg">
 			</div>
-			<div class="mini center" data-number="6" data-year="2014">
-				<img src="../imagenes/2014_6.jpg">
+			<div class="mini center" data-number="6" data-year="2017">
+				<img src="../imagenes/2017_6.jpg">
 			</div>
-			<div class="mini center" data-number="7" data-year="2014">
-				<img src="">
+			<div class="mini center" data-number="7" data-year="2017">
+				<img src="../imagenes/2017_7.jpg">
 			</div>
-			<div class="mini right" data-number="8" data-year="2014">
-				<img src="">
+			<div class="mini right" data-number="8" data-year="2017">
+				<img src="../imagenes/2017_8.jpg">
 			</div>
+				<div class="mini left"  data-number="9" data-year="2017">
+				<img src="../imagenes/2017_9.jpg">
 			</div>
+			<div class="mini center" data-number="10" data-year="2017">
+				<img src="../imagenes/2017_10.jpg">
+			</div>
+			<div class="mini center" data-number="11" data-year="2017">
+				<img src="../imagenes/2017_11.jpg">
+			</div>
+			<div class="mini right" data-number="12" data-year="2017">
+				<img src="../imagenes/2017_12.jpg">
 		</div>
 	</body>
 </html>

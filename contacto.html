@@ -14,13 +14,14 @@
 		<nav class="menu"> 
 			<ul class="main_menu">
 				<li class="main_opc"   style="cursor:pointer;"> <a href="index.html"> inicio</a></li>
-				<li class="main_opc"   style="cursor:pointer;"><a href="sobre_nosotras.html"> sore nosotras</a></li>
+				<li class="main_opc"   style="cursor:pointer;"><a href="sobre_nosotras.html"> sobre nosotras</a></li>
 				<li class="main_opc"   style="cursor:pointer;"> <a href="colecciones.html"> colecciones</a>
 					<ul class="sub_menu">
-						<li onclick="location.href='../sugarsand/colecciones/2014.html';" >2014</li>
-						<li>2015</li>
-						<li>2016</li>
-						<li>2017</li>
+						<li onclick="location.href='2014.html';" >2014</li>
+						<li onclick="location.href='2015.html';" >2015</li>
+						<li onclick="location.href='2016.html';" >2016</li>
+						<li onclick="location.href='2017.html';" >2017</li>
+						<li onclick="location.href='2018.html';" >2018</li>
 			</ul>
 				</li>
 				<li class="main_opc"   style="cursor:pointer;"><a href="sale.html"> sale</a></li>
@@ -29,18 +30,34 @@
 			</ul>
 			
 		</nav>
+		<div id="titulo_pag">CONTACTANOS</div>
+
 		<div class="contenido">
-			<form class="formulario">
-			
-				<input type="text" name="nombre" id="fullname">
 
-				<input type="textarea" name="mensaje" id="mensaje">
-
-				<input type="text" name="email" id="fullname">
-
-				
-				<input type="submit" value="ENVIAR" name="Send">
+			<form action="" method="" class="formulario">
+		    	<div class="pregunta">
+		        	<label for="nombre">Nombre:</label>
+		        	<input type="text" id="nombre" />
+			    </div>
+			    <div class="pregunta">
+			        <label for="telefono">Telefono:</label>
+			        <input type="email" id="telefono" />
+			    </div>
+			    <div class="pregunta">
+			        <label for="mail">E-mail:</label>
+			        <input type="email" id="mail" />
+			    </div>
+			    <div class="pregunta">
+			        <label for="mensaje">Mensaje:</label>
+			        <textarea id="mensaje"></textarea>
+				</div>
+			    <div class="button">
+			        <input type="submit" value="ENVIAR" name="Send">
+			    </div>
 			</form>
+			<div class="mapa">
+				<img src="imagenes/mapa.png">
+			</div>
 		</div>
 	</body>
 </html>
