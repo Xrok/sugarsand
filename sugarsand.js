@@ -15,6 +15,9 @@ $( document ).ready(function() {
     	$(this).closest('.contenido').find('.show').html(new_bg);
     	$('html,body').animate({scrollTop: $('.show').offset().top},'fast');
     })
+$('#whatsapp').click(function(){
+        alert('Contáctanos a nuestro celulares:  9879798798');
+    });
 });
 
 

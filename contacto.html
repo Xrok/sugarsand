@@ -17,15 +17,13 @@
 				<li class="main_opc"   style="cursor:pointer;"><a href="sobre_nosotras.html"> sobre nosotras</a></li>
 				<li class="main_opc"   style="cursor:pointer;"> <a href="colecciones.html"> colecciones</a>
 					<ul class="sub_menu">
-						<li onclick="location.href='2014.html';" >2014</li>
-						<li onclick="location.href='2015.html';" >2015</li>
-						<li onclick="location.href='2016.html';" >2016</li>
-						<li onclick="location.href='2017.html';" >2017</li>
-						<li onclick="location.href='2018.html';" >2018</li>
+						<li onclick="location.href='colecciones/2014.html';" >2014</li>
+						<li onclick="location.href='colecciones/2015.html';" >2015</li>
+						<li onclick="location.href='colecciones/2016.html';" >2016</li>
+						<li onclick="location.href='colecciones/2017.html';" >2017</li>
+						<li onclick="location.href='colecciones/2018.html';" >2018</li>
 			</ul>
 				</li>
-				<li class="main_opc"   style="cursor:pointer;"><a href="sale.html"> sale</a></li>
-				<li class="main_opc"   style="cursor:pointer;"><a href="faq.html"> faq</a></li>
 				<li class="main_opc"   style="cursor:pointer;"><a href="contacto.html"> contacto</a></li>
 			</ul>
 			
@@ -34,29 +32,30 @@
 
 		<div class="contenido">
 
-			<form action="" method="" class="formulario">
-		    	<div class="pregunta">
-		        	<label for="nombre">Nombre:</label>
-		        	<input type="text" id="nombre" />
-			    </div>
-			    <div class="pregunta">
+			<form action="sendbymail.php" method="POST" class="formulario">
+		    	   	<label for="nombre">Nombre:</label>
+		        	<input name="nombre" type="text" id="nombre" class="pregunta" />
+			    
 			        <label for="telefono">Telefono:</label>
-			        <input type="email" id="telefono" />
-			    </div>
-			    <div class="pregunta">
+			        <input name="telefono" type="numbers" id="telefono" class="pregunta" />
+			    
 			        <label for="mail">E-mail:</label>
-			        <input type="email" id="mail" />
-			    </div>
-			    <div class="pregunta">
+			        <input name="mail" type="email" id="mail" class="pregunta" />
+			    
 			        <label for="mensaje">Mensaje:</label>
-			        <textarea id="mensaje"></textarea>
-				</div>
-			    <div class="button">
+			        <textarea name="mensaje" id="mensaje" class="pregunta" ></textarea>
+
 			        <input type="submit" value="ENVIAR" name="Send">
-			    </div>
 			</form>
 			<div class="mapa">
 				<img src="imagenes/mapa.png">
+			</div>
+			<div class="footer">
+				<div  class="logo" id="fb"><a target="_blank" href="https://www.facebook.com/SugarsandBikinis/"> <img src="imagenes/fb.png"> </a></div>
+				<div class="logo" id="insta"><a target="_blank" href="https://www.instagram.com/sugarsandbikinis/"> <img src="imagenes/insta.png"> </a> </div>
+				<div class="logo" id="twitter"><a target="_blank" href="https://twitter.com/SugarsandBikini"><img src="imagenes/twitter.png"> </a></div>
+				<div class="logo" id="whatsapp"><img src="imagenes/whatsapp.png"> </div>
+				<div class="clear"></div>				
 			</div>
 		</div>
 	</body>

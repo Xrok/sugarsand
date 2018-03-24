@@ -5,8 +5,14 @@
 	<script type="text/javascript" src="sugarsand.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<title>SugarSand</title>
-	</head>
+	
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
 	<body>
+	
 		<div class="encabezado"> 
 			<img src="imagenes/banner.png">
 		</div>
@@ -17,19 +23,20 @@
 				<li class="main_opc"   style="cursor:pointer;"><a href="sobre_nosotras.html"> sobre nosotras</a></li>
 				<li class="main_opc"   style="cursor:pointer;"> <a href="colecciones.html"> colecciones</a>
 					<ul class="sub_menu">
-						<li onclick="location.href='2014.html';" >2014</li>
-						<li onclick="location.href='2015.html';" >2015</li>
-						<li onclick="location.href='2016.html';" >2016</li>
-						<li onclick="location.href='2017.html';" >2017</li>
-						<li onclick="location.href='2018.html';" >2018</li>
-					</ul>
+						<li onclick="location.href='colecciones/2014.html';" >2014</li>
+						<li onclick="location.href='colecciones/2015.html';" >2015</li>
+						<li onclick="location.href='colecciones/2016.html';" >2016</li>
+						<li onclick="location.href='colecciones/2017.html';" >2017</li>
+						<li onclick="location.href='colecciones/2018.html';" >2018</li>
+			</ul>
 				</li>
-				<li class="main_opc"   style="cursor:pointer;"><a href="sale.html"> sale</a></li>
-				<li class="main_opc"   style="cursor:pointer;"><a href="faq.html"> faq</a></li>
 				<li class="main_opc"   style="cursor:pointer;"><a href="contacto.html"> contacto</a></li>
 			</ul>
 			
 		</nav>
-		<div class="contenido" ></div>
-	</body>
+		<div class="contenido" >
+	
+		</div>
+	
+</body>
 </html>
